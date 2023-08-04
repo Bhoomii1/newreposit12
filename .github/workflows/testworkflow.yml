@@ -9,9 +9,9 @@ jobs:
     steps:
       - name: Testing secrets
         run:
-           echo "$DEVOPS"
+           echo "$DEVOPS1"
         env:
-         DEVOPS: ${{ secrets.SECRETSTF}}
+         DEVOPS1: ${{ secrets.SECRETSTF}}
       - name: Checkout
         uses: actions/checkout@v3
         
