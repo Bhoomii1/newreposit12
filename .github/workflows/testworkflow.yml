@@ -7,11 +7,7 @@ jobs:
   DEV-REVIEW:
     runs-on: self-hosted
     steps:
-      - name: Testing secrets
-        run:
-           echo "$DEVOPS1"
-        env:
-         DEVOPS1: ${{ secrets.SECRETSTF}}
+      
       - name: Checkout
         uses: actions/checkout@v3
         
