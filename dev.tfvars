@@ -1,4 +1,4 @@
-subscription_id                    = "subscription.secret"
-tenant_id                          = "tenant.secret"
-client_id                          = "client.secret"
-client_secret                      = "clientsecret.secret"
+subscription_id                    = "SUBSCRIPTION.secret"
+tenant_id                          = "TENANT.secret"
+client_id                          = "CLIENT.secret"
+client_secret                      = "CLIENTSECRET.secret"
